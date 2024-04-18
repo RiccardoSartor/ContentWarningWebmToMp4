@@ -1,5 +1,5 @@
-import fileManager
-import converter
+import src.fileManager as fileManager
+import src.converter as converter
 
 for file in fileManager.webmFiles(fileManager.currentPath()):
     replaced = file.replace('webm', 'mp4')
